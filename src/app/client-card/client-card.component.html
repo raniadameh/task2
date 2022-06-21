@@ -1,0 +1,9 @@
+<div class="card" style="background-color :antiquewhite;width:25rem">
+  <p>ID :{{client.id}}<br>initials :{{client.initials}}<br>description :{{client.description}}<br>
+    <ng-container *ngIf="!isReadMore">sector: {{client.sector}}<br>status:<span style= "color:brown">{{client.status}}</span></ng-container>
+    <br>
+    <button class="nav flex-column" class="btn btn-dark" id="hi" (click)="myFunction()">
+      {{ isReadMore ? 'View More': 'View Less' }}
+    </button>
+  </p>
+</div>
