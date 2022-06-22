@@ -19,13 +19,13 @@ export class ClientCardComponent implements OnInit {
 
   ngOnInit(): void {
     if (this.client.status == 1) {
-      this.client.status = this.active;
+      this.state = this.active;
     }
     else if (this.client.status == 0) {
-      this.client.status = this.deleted;
+      this.state = this.deleted;
     }
     else if (this.client.status == 2) {
-      this.client.status = this.inactive;
+      this.state = this.inactive;
     }
   }
   myFunction() {
