@@ -6,6 +6,7 @@ import { ClientListComponent } from './client-list/client-list.component';
 import { ClientCardComponent } from './client-card/client-card.component';
 import { AccountInfoComponent } from './account-info/account-info.component';
 import { CopyIfDirective } from './copy-if.directive';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { CopyIfDirective } from './copy-if.directive';
     ClientCardComponent,
     AccountInfoComponent,
     CopyIfDirective,
+    TestComponent,
    
   ],
   imports: [
